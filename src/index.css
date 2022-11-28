@@ -1,0 +1,23 @@
+@import './styles/layout.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+  @apply flex;
+  @apply flex-col;
+  @apply h-full;
+  @apply items-stretch;
+
+  @apply py-6;
+  @apply px-4;
+  @apply gap-6;
+  @apply overflow-x-auto;
+}
+
+.title-2 {
+  @apply font-montserrat;
+  @apply text-heading-2;
+  @apply font-normal;
+}
