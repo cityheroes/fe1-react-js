@@ -1,4 +1,4 @@
-# Junior Front-End Challenge
+# Front-End Challenge
 
 ## Installation
 
@@ -53,13 +53,25 @@ https://api.artic.edu/api/v1/artworks/search?fields=id,title,artist_id,category_
 
 ### Categories by ids
 
-You can check the endpoint documentation [here](https://api.artic.edu/docs/#collections).
+You can check the endpoint documentation [here](https://api.artic.edu/docs/#category-terms).
 
 ```
 https://api.artic.edu/api/v1/category-terms?ids=<ids>
 ```
 
 - `<ids>`: number[]
+
+### Artwork details
+
+You can check the endpoint documentation [here](https://api.artic.edu/docs/#get-artworks-id).
+The list of fields is available [here](https://api.artic.edu/docs/#artworks-2).
+
+```
+https://api.artic.edu/api/v1/artworks/<id>?fields=<field-list>
+```
+
+- `<id>`: number
+- `<field-list>`: string (comma-separated list of fields)
 
 ### Image Url
 
